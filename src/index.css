@@ -4,8 +4,12 @@
 
 
 .primary-btn{
-    @apply bg-[#5342bf] py-4 px-5 text-white rounded-sm font-semibold tracking-wide
+    @apply bg-[#5342bf] py-3 px-5 text-white rounded-sm font-semibold tracking-wide
 }
 .primary-text{
     @apply text-[#5342bf]
+}
+
+.default-container{
+    @apply max-w-[1200px] mx-auto w-full px-4 md:px-2
 }

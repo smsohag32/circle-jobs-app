@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="flex flex-col gap-5 md:gap-0 md:flex-row md:justify-between md:items-center max-w-[1200px] mx-auto w-full mt-4 md:mt-0 ">
+    <div className="flex flex-col gap-5 md:gap-0 md:flex-row md:justify-between md:items-center default-container mt-4 md:mt-0 ">
       <div className="">
-        <h3 className="font-bold text-xl">
+        <h3 className="font-extrabold text-xl">
           <Link to="/">
             Circle<span className="primary-text">Job</span>s
           </Link>
