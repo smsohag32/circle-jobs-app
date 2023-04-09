@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "category": "Software Development",
+        "jobAvailable": 225,
+        "categoryIcon": "code"
+    },
+    {
+        "id": 2,
+        "category": "Marketing",
+        "jobAvailable": 544,
+        "categoryIcon": "megaphone"},
+    {
+        "id": 3,
+        "category": "Finance",
+        "jobAvailable": 980,
+        "categoryIcon": "dollar-sign"
+    },  
+    {
+        "id": 4,
+        "category": "Human Resources",
+        "jobAvailable": 1290,
+        "categoryIcon": "users"
+    }
+]

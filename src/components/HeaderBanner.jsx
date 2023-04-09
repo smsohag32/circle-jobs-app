@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const HeaderBanner = () => {
   return (
-    <div className="default-container flex items-center  md:justify-between gap-5 flex-col md:flex-row">
+    <div className="default-container pt-16 md:pt-0 flex items-center  md:justify-between gap-5 flex-col md:flex-row">
       <div className="w-full text-center md:text-start">
         <h1 className="title md:text-6xl font-bold mb-3">
           One Step Closer To Your <br />

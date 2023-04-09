@@ -7,6 +7,7 @@ import ErrorPage from "./components/ErrorPage";
 import Home from "./components/Home";
 import Statistic from "./components/Statistic";
 import Blogs from "./components/Blogs";
+import loadCategoriesData from "./utilities/loadCategories";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        loader: loadCategoriesData,
       },
       {
         path: "statistic",
