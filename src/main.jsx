@@ -9,6 +9,9 @@ import Statistic from "./components/Statistic";
 import Blogs from "./components/Blogs";
 import loadCategoriesData from "./utilities/loadCategories";
 import loadJobsData from "./utilities/loadJobs";
+import JobDetails from "./components/JobDetails";
+import AppliedJobs from "./components/AppliedJobs";
+import loadDetail from "./utilities/loadDetail";
 
 const router = createBrowserRouter([
   {
@@ -20,15 +23,23 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: loadCategoriesData,
       },
       {
         path: "statistic",
         element: <Statistic />,
       },
       {
+        path: "applied",
+        element: <AppliedJobs />,
+      },
+      {
         path: "blog",
         element: <Blogs />,
+      },
+      {
+        path: "job/details/:blogId",
+        element: <JobDetails />,
+        loader: loadDetail,
       },
     ],
   },

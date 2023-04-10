@@ -4,7 +4,7 @@
     "companyLogo": "https://example.com/logo1.png",
     "jobTitle": "Software Engineer",
     "companyName": "ABC Inc.",
-    "employmentStatus": "Full-time",
+    "employmentStatus": "Full -time",
     "companyLocation": "San Francisco, CA",
     "jobType": "Remote",
     "salary": "$100,000 - $120,000",

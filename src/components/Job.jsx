@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Job = ({ job }) => {
   const {
@@ -31,7 +32,9 @@ const Job = ({ job }) => {
           {salary}
         </p>
       </div>
-      <button className="secondary-btn">View Details</button>
+      <Link to={`./job/details/${id}`}>
+        <button className="secondary-btn">View Details</button>
+      </Link>
     </div>
   );
 };
