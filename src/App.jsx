@@ -13,6 +13,7 @@ function App() {
   // handle apply job
   const handleApplyJob = (job) => {
     let applied = [];
+
     const isExist = appliedJob.find((job) => job.id == job.id);
     if (!isExist) {
       applied = [...appliedJob, job];

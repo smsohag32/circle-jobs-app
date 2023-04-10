@@ -5,7 +5,7 @@ const loadDetails = async({params}) => {
     const id = params.id
     const jobDetail = data.find(job => job.id == parseInt(id))
 
-    return jobDetail
+    return jobDetail;
 } 
 
 
