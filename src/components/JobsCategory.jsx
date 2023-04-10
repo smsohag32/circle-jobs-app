@@ -1,6 +1,7 @@
 import React from "react";
+import Category from "./Category";
 
-const JobsCategory = () => {
+const JobsCategory = ({ categoriesData }) => {
   return (
     <div className="default-container py-16">
       <div className="flex justify-center items-center flex-col">
@@ -12,7 +13,11 @@ const JobsCategory = () => {
           </small>
         </p>
       </div>
-      <div>{/* category */}</div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 pt-8">
+        {categoriesData?.map((singleCategory) => (
+          <Category singleCategory={singleCategory} key={singleCategory.id} />
+        ))}
+      </div>
     </div>
   );
 };

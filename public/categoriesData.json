@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "category": "Software Development",
+        "category": "Creative Design",
         "jobAvailable": 225,
-        "categoryIcon": "code"
+        "categoryIcon": "https://i.ibb.co/VwMCj6X/design-thinking.png"
     },
     {
         "id": 2,
         "category": "Marketing",
         "jobAvailable": 544,
-        "categoryIcon": "megaphone"},
+        "categoryIcon": "https://i.ibb.co/QJmy9xh/icon2.png"},
     {
         "id": 3,
         "category": "Finance",
         "jobAvailable": 980,
-        "categoryIcon": "dollar-sign"
+        "categoryIcon": "https://i.ibb.co/QMk3wY9/icon3.png"
     },  
     {
         "id": 4,
         "category": "Human Resources",
         "jobAvailable": 1290,
-        "categoryIcon": "users"
+        "categoryIcon": "https://i.ibb.co/9rByGPN/icon4.png"
     }
 ]

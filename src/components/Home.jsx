@@ -11,7 +11,7 @@ const Home = () => {
       <div className="bg-gray-100">
         <HeaderBanner />
       </div>
-      <JobsCategory />
+      <JobsCategory categoriesData={categoriesData} />
     </>
   );
 };
