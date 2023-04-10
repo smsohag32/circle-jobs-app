@@ -6,6 +6,9 @@
 .primary-btn{
     @apply bg-[#5342bf] py-3 px-5 text-white rounded-sm font-semibold tracking-wide
 }
+.secondary-btn{
+    @apply bg-[#5342bf] py-1.5 px-4 text-white rounded-sm font-semibold text-sm tracking-tight
+}
 .primary-text{
     @apply text-[#5342bf]
 }

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://example.com/logo1.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "ABC Inc.",
+    "employmentStatus": "Full-time",
+    "companyLocation": "San Francisco, CA",
+    "jobType": "Remote",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in developing web applications using modern web frameworks.",
+    "jobResponsibility": "Responsibilities include designing and implementing software solutions, writing high-quality code, and collaborating with cross-functional teams to deliver features on time.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
+    "experiences": "2+ years of experience in software engineering",
+    "contactInfo": {
+      "phone": "555-1234",
+      "email": "jobs@abcinc.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://example.com/logo2.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "XYZ Corp.",
+    "employmentStatus": "Full-time",
+    "companyLocation": "New York, NY",
+    "jobType": "Onsite",
+    "salary": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a marketing manager to lead our marketing efforts. The ideal candidate will have experience in developing and executing marketing campaigns.",
+    "jobResponsibility": "Responsibilities include developing marketing strategies, managing marketing budgets, and analyzing marketing data to measure campaign effectiveness.",
+    "educationalRequirements": "Bachelor's degree in Marketing or a related field",
+    "experiences": "5+ years of experience in marketing",
+    "contactInfo": {
+      "phone": "555-2345",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  },
+  {
+    "id": 7,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  },
+  {
+    "id": 8,
+    "companyLogo": "https://example.com/logo3.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "PQR Studios",
+    "employmentStatus": "Freelance",
+    "companyLocation": "Los Angeles, CA",
+    "jobType": "Remote",
+    "salary": "$30 - $50 per hour",
+    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
+    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contactInfo": {
+      "phone": "555-3456",
+      "email": "jobs@pqrstudios.com"
+    }
+  }
+]

@@ -8,12 +8,14 @@ import Home from "./components/Home";
 import Statistic from "./components/Statistic";
 import Blogs from "./components/Blogs";
 import loadCategoriesData from "./utilities/loadCategories";
+import loadJobsData from "./utilities/loadJobs";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
+    loader: loadJobsData,
     children: [
       {
         path: "/",

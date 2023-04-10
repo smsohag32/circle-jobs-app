@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { JobsContext } from "../App";
+import Job from "./Job";
 
 const Jobs = () => {
+  const jobsData = useContext(JobsContext);
+  console.log(jobsData);
+
   return (
     <div className="default-container pb-16">
       <div className="flex justify-center items-center flex-col">
@@ -11,6 +16,11 @@ const Jobs = () => {
             similique eos sapiente velit esse libero.
           </small>
         </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {jobsData?.map((job) => (
+          <Job key={job.id} job={job} />
+        ))}
       </div>
     </div>
   );
