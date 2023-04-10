@@ -7,7 +7,7 @@ import { createContext } from "react";
 export const JobsContext = createContext([]);
 function App() {
   const jobsData = useLoaderData();
-  console.log(jobsData);
+
   return (
     <JobsContext.Provider value={jobsData}>
       <Header />

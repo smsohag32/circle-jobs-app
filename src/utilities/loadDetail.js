@@ -1,7 +1,12 @@
 
-const loadDetail = ({params}) =>{
-    const blogId = params.blogId;
-    return blogId;
-}
+const loadDetails = async({params}) => {
+    const res = await fetch('/jobsData.json')
+    const data = await res.json();
+    const id = params.id
+    const jobDetail = data.find(job => job.id == parseInt(id))
 
-export default loadDetail;
+    return jobDetail
+} 
+
+
+export default loadDetails;
