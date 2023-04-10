@@ -12,10 +12,30 @@ const Header = () => {
         </h3>
       </div>
       <ul className="flex gap-4 flex-col md:flex-row bg-gray-800 p-8 text-white md:bg-transparent md:text-black">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/statistic">Statistics</NavLink>
-        <NavLink to="/applied">Applied Jobs</NavLink>
-        <NavLink to="/blog">Blog</NavLink>
+        <NavLink
+          className={({ isActive }) => isActive && "primary-text"}
+          to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => isActive && "primary-text"}
+          to="/statistic"
+        >
+          Statistics
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => isActive && "primary-text"}
+          to="/applied"
+        >
+          Applied Jobs
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => isActive && "primary-text"}
+          to="/blog"
+        >
+          Blog
+        </NavLink>
         <button className="primary-btn md:hidden w-[50%]">
           Start Applying
         </button>

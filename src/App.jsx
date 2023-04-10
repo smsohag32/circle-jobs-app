@@ -1,6 +1,5 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
 import Footer from "./components/Footer";
 import { createContext } from "react";
 
@@ -14,7 +13,9 @@ function App() {
       <div className="min-h-[calc(100vh-480px)]">
         <Outlet></Outlet>
       </div>
-      <Footer />
+      <div className="bg-blue-50">
+        <Footer />
+      </div>
     </JobsContext.Provider>
   );
 }
