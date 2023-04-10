@@ -1,8 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { PhoneIcon, MapPinIcon, AtSymbolIcon } from "@heroicons/react/24/solid";
+import { useContext } from "react";
+import { AppliedJobsContext } from "../App";
 const JobDetails = () => {
   const jobDetail = useLoaderData();
-  console.log(jobDetail);
+  const { handleApplyJob } = useContext(AppliedJobsContext);
+  //   console.log(jobDetail);
   const {
     jobResponsibility,
     jobDescription,
@@ -11,6 +14,7 @@ const JobDetails = () => {
     contactInfo,
     companyLocation,
   } = jobDetail;
+
   return (
     <div className="default-container py-16 grid grid-cols-1 md:grid-cols-3 gap-4">
       <div className="col-span-1 md:col-span-2">
@@ -62,7 +66,12 @@ const JobDetails = () => {
             {companyLocation}
           </p>
         </div>
-        <button className="primary-btn">Apply Now</button>
+        <button
+          onClick={() => handleApplyJob(jobDetail)}
+          className="primary-btn"
+        >
+          Apply Now
+        </button>
       </div>
     </div>
   );

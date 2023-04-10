@@ -1,6 +1,10 @@
-import React from "react";
+import { useContext } from "react";
+import { AppliedJobsContext } from "../App";
 
 const AppliedJobs = () => {
+  const { appliedJob } = useContext(AppliedJobsContext);
+  console.log(appliedJob);
+
   return <div></div>;
 };
 
