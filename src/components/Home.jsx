@@ -2,6 +2,7 @@ import React from "react";
 import HeaderBanner from "./HeaderBanner";
 import JobsCategory from "./JobsCategory";
 import { useLoaderData } from "react-router-dom";
+import Jobs from "./Jobs";
 
 const Home = () => {
   const categoriesData = useLoaderData();
@@ -12,6 +13,7 @@ const Home = () => {
         <HeaderBanner />
       </div>
       <JobsCategory categoriesData={categoriesData} />
+      <Jobs />
     </>
   );
 };
