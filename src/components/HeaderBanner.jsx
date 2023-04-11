@@ -7,9 +7,9 @@ const HeaderBanner = () => {
   return (
     <div className="default-container pt-16 md:pt-0 flex items-center  md:justify-between gap-5 flex-col md:flex-row">
       <div className="w-full text-center md:text-start">
-        <h1 className="title md:text-6xl font-bold mb-3">
-          One Step Closer To Your <br />
-          <span className="primary-text">Dream Job</span>
+        <h1 className="title md:text-6xl text-3xl font-bold mb-3">
+          <span className="opacity-70">One Step Closer To Your</span> <br />
+          <span className="primary-text opacity-100">Dream Job</span>
         </h1>
         <p className="mb-6">
           <small>
