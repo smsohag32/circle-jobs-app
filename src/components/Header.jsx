@@ -44,13 +44,17 @@ const Header = () => {
         >
           Blog
         </NavLink>
-        <button className="primary-btn md:hidden w-[50%]">
+        <Link to="/">
+          <button className="primary-btn md:hidden w-[50%]">
+            Start Applying
+          </button>
+        </Link>
+      </ul>
+      <Link to="/">
+        <button className="primary-btn hidden md:inline-block">
           Start Applying
         </button>
-      </ul>
-      <button className="primary-btn hidden md:inline-block">
-        Start Applying
-      </button>
+      </Link>
     </div>
   );
 };

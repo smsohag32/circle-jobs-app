@@ -44,7 +44,7 @@ function App() {
         <div className="min-h-[calc(100vh-480px)]">
           <Outlet></Outlet>
         </div>
-        <div className="bg-blue-50">
+        <div className="bg-blue-100">
           <Footer />
         </div>
       </AppliedJobsContext.Provider>
