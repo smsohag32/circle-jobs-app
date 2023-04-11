@@ -9,6 +9,7 @@ export const AppliedJobsContext = createContext({});
 function App() {
   const jobsData = useLoaderData();
   const [appliedJob, setAppliedJob] = useState([]);
+  const [filterValueText, setFilterValueTExt] = useState("All");
 
   // handle apply job
   const handleApplyJob = (job) => {
@@ -24,6 +25,20 @@ function App() {
     setAppliedJob(applied);
     addToDb(job.id);
   };
+
+  // handle filter jobs
+  let filterJobs = appliedJob.filter((job) => {
+    if (filterValueText === "Remote") {
+      return job.jobType === "Remote";
+    } else if (filterValueText === "Onsite") {
+      return job.jobType === "Onsite";
+    } else {
+      return job;
+    }
+  });
+  const filterValueSelected = (filterValue) => {
+    setFilterValueTExt(filterValue);
+  };
   useEffect(() => {
     const storedJob = getAppliedJob();
     const savedJob = [];
@@ -37,9 +52,16 @@ function App() {
     }
     setAppliedJob(savedJob);
   }, [jobsData]);
+
   return (
     <JobsContext.Provider value={jobsData}>
-      <AppliedJobsContext.Provider value={{ appliedJob, handleApplyJob }}>
+      <AppliedJobsContext.Provider
+        value={{
+          filterJobs,
+          handleApplyJob,
+          filterValueSelected,
+        }}
+      >
         <Header />
         <div className="min-h-[calc(100vh-480px)]">
           <Outlet></Outlet>
