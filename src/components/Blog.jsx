@@ -6,7 +6,7 @@ const Blog = ({ blog }) => {
     <article data-aos="zoom-in-up" className="p-5 md:p-10">
       <h3 className="text-xl font-extrabold opacity-60">{question}</h3>
       <p className="ms-2 my-3 opacity-60">{answer}</p>
-      <p className="text-right opacity-50">_{author}</p>
+      <p className="text-right mt-2 opacity-50">_{author}</p>
     </article>
   );
 };

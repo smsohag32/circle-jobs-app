@@ -44,6 +44,7 @@ function App() {
       return job;
     }
   });
+
   const filterValueSelected = (filterValue) => {
     setFilterValueTExt(filterValue);
   };

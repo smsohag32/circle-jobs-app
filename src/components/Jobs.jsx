@@ -17,8 +17,11 @@ const Jobs = () => {
         <h2 className="font-bold text-4xl opacity-80">Featured Jobs</h2>
         <p className="text-gray-800 text-center px-3 md:px-0 md:w-[50%]">
           <small>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate
-            similique eos sapiente velit esse libero.
+            Discover a wide range of job vacancies in various industries and job
+            categories. Our 'All Jobs' section offers a comprehensive listing of
+            all available job opportunities, making it easy for you to find and
+            apply for jobs that match your skills and experience. Start your job
+            search today and take the next step in your career.
           </small>
         </p>
       </div>

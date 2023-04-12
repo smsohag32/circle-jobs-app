@@ -16,10 +16,9 @@ const HeaderBanner = () => {
         </h1>
         <p className="mb-6">
           <small>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem nemo doloremque perspiciatis enim quo, quos nam odit
-            laudantium repellendus sit assumenda blanditiis illo voluptatibus
-            optio facilis cupiditate libero quibusdam neque?
+            Search and apply for the latest job vacancies in your field. Our
+            platform offers a wide range of opportunities for job seekers of all
+            levels. Join now and take the first step towards your career goals.
           </small>
         </p>
         <Link to="/">

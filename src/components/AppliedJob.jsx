@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+
 const AppliedJob = ({ job }) => {
   const {
     id,
@@ -12,6 +13,7 @@ const AppliedJob = ({ job }) => {
     companyLocation,
     salary,
   } = job;
+
   return (
     <div
       data-aos="zoom-in-up"

@@ -2,7 +2,7 @@
 
 This project is a job circular website built with React components. The website allows users to search and apply for job vacancies, as well as post job openings for employers.
 
-## Live Link : [a link](https://circle-jobs-sm.netlify.app/)
+## Live Link : [Circle Jobs](https://circle-jobs-sm.netlify.app/)
 
 ## Components and Features Documentation
 
@@ -37,11 +37,11 @@ This project is built using various React components, including:
 
 - The applied jobs filter features are a set of features that filtering applied onsite job and remote job and also All Job.
 
-## Router Setup
+### Router Setup
 
 - This project using react router dom . Using main component nested route.
 
-## Animation
+### Animation
 
 - This project using to aos animation to make more user interactive. using some animation and animated img
 

@@ -8,8 +8,10 @@ const JobsCategory = ({ categoriesData }) => {
         <h2 className="font-bold text-4xl opacity-80">Job Category</h2>
         <p className="text-gray-800 text-center px-3 md:px-0 md:w-[50%]">
           <small>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate
-            similique eos sapiente velit esse libero.
+            Browse through our wide range of job categories and find the perfect
+            job that matches your skills and experience. Whether you're a recent
+            graduate or a seasoned professional, we have opportunities for
+            everyone.
           </small>
         </p>
       </div>
