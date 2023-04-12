@@ -13,7 +13,10 @@ const AppliedJob = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className="flex border my-6 p-7 flex-col md:flex-row justify-between md:items-center">
+    <div
+      data-aos="zoom-in-up"
+      className="flex border my-6 p-7 flex-col md:flex-row justify-between md:items-center"
+    >
       <div className="flex flex-col md:flex-row  md:items-center gap-6">
         <span className="w-44 flex items-center justify-center h-44 bg-gray-100">
           <img

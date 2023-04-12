@@ -13,7 +13,7 @@ const Job = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className="border p-10 rounded-sm">
+    <div data-aos="fade-up" className="border p-10 rounded-sm">
       <img
         className="w-40 mb-2 h-12 object-contain"
         src={companyLogo}

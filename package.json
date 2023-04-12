@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
+    "aos": "^3.0.0-beta.6",
     "daisyui": "^2.51.5",
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.0",

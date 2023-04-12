@@ -3,9 +3,17 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { createContext, useEffect, useState } from "react";
 import { addToDb, getAppliedJob } from "./utilities/fakedb";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+// aos animation
+AOS.init();
+
+// context api
 export const JobsContext = createContext([]);
 export const AppliedJobsContext = createContext({});
+
+// App component
 function App() {
   const jobsData = useLoaderData();
   const [appliedJob, setAppliedJob] = useState([]);
