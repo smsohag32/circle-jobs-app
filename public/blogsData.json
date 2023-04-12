@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "question": "What is your name?",
-    "answer": "My name is ChatGPT.",
-    "author": "OpenAI"
+    "question": "When should you use context API?",
+    "answer": "Context api is primarily used when some data needs to be accessible by many components at different nesting levels. Apply it sparingly because it makes component re use more difficult. If I only want to avoid passing some props through many levels, component composition is often a simpler solution than context api.",
+    "author": "Sm Sohag"
   },
   {
     "id": 2,
-    "question": "What is your favorite color?",
-    "answer": "As an AI language model, I don't have a favorite color.",
-    "author": "OpenAI"
+    "question": "What is a custom hook?",
+    "answer": "A custom hook is a special JavaScript function whose name starts with 'use' and can be used to call other hooks. Custom hooks are a powerful and flexible for building complex, reusable functionality in React applications.",
+    "author": "Sm Sohag"
   },
   {
     "id": 3,
-    "question": "What is the capital of France?",
-    "answer": "The capital of France is Paris.",
-    "author": "OpenAI"
+    "question": "What is useRef?",
+    "answer": "The useRef Hook is a function that returns a mutable ref object whose .current property is initialized with the passed argument (initialValue). The returned object will persist for the full lifetime of the component.",
+    "author": "Sm Sohag"
   },
   {
     "id": 4,
-    "question": "What is the capital of France?",
-    "answer": "The capital of France is Paris.",
-    "author": "OpenAI"
+    "question": "What is useMemo?",
+    "answer": "useMemo is a built-in hook in React that is used to memoize a value or a computation, which means that it caches the result of a function call and returns that result until certain dependencies change. This can help to optimize the performance of your React components by avoiding unnecessary re-computations or re-renders.",
+    "author": "Sm Sohag"
   }
 ]
