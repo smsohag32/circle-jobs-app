@@ -1,146 +1,154 @@
 [
   {
     "id": 1,
-    "companyLogo": "https://example.com/logo1.png",
-    "jobTitle": "Software Engineer",
-    "companyName": "ABC Inc.",
+    "companyLogo": "https://i.ibb.co/dtPHZgx/google-1-1-1.png",
+    "jobTitle": "Software Developer",
+    "companyName": "Google",
     "employmentStatus": "Full -time",
-    "companyLocation": "San Francisco, CA",
+    "companyLocation": "United State",
+    "companyAddress": "United State, Mountain View, CA",
     "jobType": "Remote",
-    "salary": "$100,000 - $120,000",
+    "salary": "$20,000 - $30,000",
     "jobDescription": "We are looking for a talented software engineer to join our team. The ideal candidate will have experience in developing web applications using modern web frameworks.",
     "jobResponsibility": "Responsibilities include designing and implementing software solutions, writing high-quality code, and collaborating with cross-functional teams to deliver features on time.",
     "educationalRequirements": "Bachelor's degree in Computer Science or a related field",
     "experiences": "2+ years of experience in software engineering",
     "contactInfo": {
-      "phone": "555-1234",
-      "email": "jobs@abcinc.com"
+      "phone": "(545)-555-1234",
+      "email": "info@google.com"
     }
   },
   {
     "id": 2,
-    "companyLogo": "https://example.com/logo2.png",
+    "companyLogo": "https://i.ibb.co/9Y3BjQZ/basundhara.png",
     "jobTitle": "Marketing Manager",
-    "companyName": "XYZ Corp.",
+    "companyName": "Bashundhara Group",
     "employmentStatus": "Full-time",
-    "companyLocation": "New York, NY",
+    "companyLocation": "Dhaka, Bangladesh",
+    "companyAddress": "Baridhara,Dhaka-1229, Bangladesh",
     "jobType": "Onsite",
-    "salary": "$80,000 - $100,000",
+    "salary": "$15,000 - $20,000",
     "jobDescription": "We are seeking a marketing manager to lead our marketing efforts. The ideal candidate will have experience in developing and executing marketing campaigns.",
     "jobResponsibility": "Responsibilities include developing marketing strategies, managing marketing budgets, and analyzing marketing data to measure campaign effectiveness.",
     "educationalRequirements": "Bachelor's degree in Marketing or a related field",
     "experiences": "5+ years of experience in marketing",
     "contactInfo": {
-      "phone": "555-2345",
-      "email": "jobs@xyzcorp.com"
+      "phone": "+880 2 8432196",
+      "email": "info@bg.com.bd"
     }
   },
   {
     "id": 3,
-    "companyLogo": "https://example.com/logo3.png",
+    "companyLogo": "https://i.ibb.co/9wt1t19/aci.png",
     "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
+    "companyName": "ACI Limited",
+    "employmentStatus": "Full -time",
+    "companyLocation": "Dhaka, Bangladesh",
+    "companyAddress": "Tejgaon Industrial Area, Dhaka, Bangladesh",
     "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
+     "salary": "$10,000 - $12,000",
     "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
     "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
     "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
     "experiences": "2+ years of experience in graphic design",
     "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
+      "phone": "+8802-8878603",
+      "email": "jobs@acig.com"
     }
   },
   {
-    "id": 4,
-    "companyLogo": "https://example.com/logo3.png",
-    "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
-    "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
-    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
-    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
-    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
-    "experiences": "2+ years of experience in graphic design",
-    "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
-    }
-  },
-  {
+  "id": 4,
+  "companyLogo": "https://i.ibb.co/hF7ZMDp/becsimco.png",
+  "jobTitle": "Sales Representative",
+  "companyName": "BEXIMCO Pharmaceuticals",
+  "employmentStatus": "Full-time",
+  "companyLocation": "Dhaka, Bangladesh",
+  "companyAddress": "Dhanmondi R/A, Dhaka, Bangladesh",
+  "jobType": "Onsite",
+  "salary": "$8,000 - $10,000",
+  "jobDescription": "We are looking for a Sales Representative to promote and sell our products to new and existing customers.",
+  "jobResponsibility": "Responsibilities include prospecting, generating leads, and closing sales.",
+  "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+  "experiences": "1+ years of experience in sales",
+  "contactInfo": {
+    "phone": "+880-2-58611001-7",
+    "email": "careers@bpl.com"
+  }
+},
+   {
     "id": 5,
-    "companyLogo": "https://example.com/logo3.png",
-    "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
+    "companyLogo": "https://i.ibb.co/FzTd4gL/netflix-4-1.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Netflix",
+    "employmentStatus": "Full -time",
+    "companyLocation": "United State, Washington",
+    "companyAddress": "1st Street, Washington, United State",
     "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
-    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
-    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
-    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
-    "experiences": "2+ years of experience in graphic design",
+    "salary": "$40,000 - $50,000",
+    "jobDescription": "We are looking for a data analyst to help us analyze and interpret complex data sets.",
+    "jobResponsibility": "Responsibilities include collecting and analyzing large amounts of data, creating reports and visualizations, and presenting findings to stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Mathematics, Statistics, or a related field",
+    "experiences": "2+ years of experience in data analysis",
     "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
+      "phone": "(408) 540-3700",
+      "email": "info@netflix.com"
     }
   },
-  {
+{
     "id": 6,
-    "companyLogo": "https://example.com/logo3.png",
-    "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
-    "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
-    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
-    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
-    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
-    "experiences": "2+ years of experience in graphic design",
+    "companyLogo": "https://i.ibb.co/CQcsnrn/akij.png",
+    "jobTitle": "Accountant",
+    "companyName": "Akij Beverage Ltd",
+    "employmentStatus": "Full-time",
+    "companyLocation": "Dhaka, Bangladesh",
+    "companyAddress": "Tejgaon, Dhaka, Bangladesh",
+    "jobType": "Onsite",
+    "salary": "$10,000 - $20,000",
+    "jobDescription": "We are seeking an experienced accountant to join our team. The ideal candidate will have a strong background in accounting and finance, and will be responsible for maintaining accurate financial records.",
+    "jobResponsibility": "Responsibilities include managing accounts payable and receivable, preparing financial statements and reports, and ensuring compliance with tax regulations.",
+    "educationalRequirements": "Bachelor's degree in Accounting or Finance",
+    "experiences": "3+ years of experience in accounting or finance",
     "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
-    }
-  },
-  {
-    "id": 7,
-    "companyLogo": "https://example.com/logo3.png",
-    "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
-    "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
-    "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
-    "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
-    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
-    "experiences": "2+ years of experience in graphic design",
-    "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
-    }
-  },
+    "phone": "+8801313362802",
+    "email": "info@akij.net"
+  }
+},
+   {
+  "id": 7,
+  "companyLogo": "https://i.ibb.co/N7ycXKf/tesla-9-1.png",
+  "jobTitle": "Marketing Manager",
+  "companyName": "Tesla",
+  "employmentStatus": "Full-time",
+  "companyLocation": "San Francisco, USA",
+  "companyAddress": "456 Market Street, Suite 300, San Francisco, USA",
+  "jobType": "Onsite",
+  "salary": "$40,000 - $50,000",
+  "jobDescription": "We are seeking an experienced marketing manager to join our team. The ideal candidate will have a proven track record of developing and executing successful marketing campaigns.",
+  "jobResponsibility": "Responsibilities include developing and executing marketing campaigns, managing marketing budgets, and analyzing marketing data to measure campaign performance.",
+  "educationalRequirements": "Bachelor's degree in Marketing or a related field",
+  "experiences": "7+ years of experience in marketing",
+  "contactInfo": {
+    "phone": "+1-555-555-5678",
+    "email": "info@tesla.com"
+  }
+},
   {
     "id": 8,
-    "companyLogo": "https://example.com/logo3.png",
+    "companyLogo": "https://i.ibb.co/tZYRLDG/square.png",
     "jobTitle": "Graphic Designer",
-    "companyName": "PQR Studios",
-    "employmentStatus": "Freelance",
-    "companyLocation": "Los Angeles, CA",
+    "companyName": "Square Group",
+    "employmentStatus": "Full -time",
+    "companyLocation": "Dhaka, Bangladesh",
+    "companyAddress": "Baridhara,Dhaka-1229, Dhaka Bangladesh",
     "jobType": "Remote",
-    "salary": "$30 - $50 per hour",
+    "salary": "$7000 - $8000",
     "jobDescription": "We are looking for a skilled graphic designer to help us with various design projects. The ideal candidate will have experience in designing graphics for digital and print media.",
     "jobResponsibility": "Responsibilities include creating design concepts, developing design assets, and collaborating with clients to ensure design projects meet their requirements.",
-    "educationalRequirements": "Bachelor's degree in Graphic Design or a related field",
+    "educationalRequirements": "Bachelor's degree in any discipline or a related field",
     "experiences": "2+ years of experience in graphic design",
     "contactInfo": {
-      "phone": "555-3456",
-      "email": "jobs@pqrstudios.com"
+      "phone": "+88-02-9859007",
+      "email": "jobs@sq.com"
     }
   }
 ]
