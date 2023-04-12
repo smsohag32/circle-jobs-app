@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "What is your name?",
+    "answer": "My name is ChatGPT."
+  },
+  {
+    "id": 2,
+    "question": "What is your favorite color?",
+    "answer": "As an AI language model, I don't have a favorite color."
+  },
+  {
+    "id": 3,
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris."
+  },
+  {
+    "id": 4,
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris."
+  }
+]
