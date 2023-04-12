@@ -54,7 +54,7 @@ const Statistic = () => {
             {/* <Area dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
             <Bar
               dataKey="marks"
-              name="Assignment"
+              name="Assignment Marks"
               barSize={20}
               fill="#413ea0"
             />
