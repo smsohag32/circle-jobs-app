@@ -4,6 +4,12 @@ This project is a job circular website built with React components. The website 
 
 ## Live Link : [Circle Jobs](https://circle-jobs-sm.netlify.app/)
 
+# How to use
+
+- `1st`: git clone
+- `2nd`: npm install
+- `3rd`: npm run dev
+
 ## Components and Features Documentation
 
 This project is built using various React components, including:
